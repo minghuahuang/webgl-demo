@@ -1,3 +1,8 @@
-import * as THREE from 'three'
+/**
+ * 修改demo文件路径即可
+ **/ 
 
-console.log(THREE)
+// basic
+import('./demo/basic').then(res=> {
+  res.h()
+})
