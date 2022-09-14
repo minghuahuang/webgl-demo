@@ -3,6 +3,11 @@
  **/ 
 
 // basic
-import('./demo/basic').then(res=> {
+// import('./demo/basic').then(res=> {
+//   res.h()
+// })
+
+// orbitControls
+import('./demo/orbitControls').then(res=> {
   res.h()
 })

@@ -237,10 +237,14 @@ LazyPromise.prototype.catch = function (onError) {
  * 修改demo文件路径即可
  **/
 // basic
-require("_bundle_loader")(require.resolve('./demo/basic')).then(function (res) {
+// import('./demo/basic').then(res=> {
+//   res.h()
+// })
+// orbitControls
+require("_bundle_loader")(require.resolve('./demo/orbitControls')).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/basic":[["basic.4971f4c9.js","demo/basic.js"],"basic.4971f4c9.js.map","demo/basic.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/orbitControls":[["orbitControls.b8d9c0eb.js","demo/orbitControls.js"],"orbitControls.b8d9c0eb.js.map","demo/orbitControls.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -268,7 +272,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62011" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53552" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
