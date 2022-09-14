@@ -18,6 +18,11 @@
 // })
 
 // translate
-import('./demo/translate').then(res=> {
+// import('./demo/translate').then(res=> {
+//   res.h()
+// })
+
+// scale
+import('./demo/scale').then(res=> {
   res.h()
 })
