@@ -241,10 +241,14 @@ LazyPromise.prototype.catch = function (onError) {
 //   res.h()
 // })
 // orbitControls
-require("_bundle_loader")(require.resolve('./demo/orbitControls')).then(function (res) {
+// import('./demo/orbitControls').then(res=> {
+//   res.h()
+// })
+// axesHelper
+require("_bundle_loader")(require.resolve('./demo/axesHelper')).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/orbitControls":[["orbitControls.b8d9c0eb.js","demo/orbitControls.js"],"orbitControls.b8d9c0eb.js.map","demo/orbitControls.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/axesHelper":[["axesHelper.6e4071f2.js","demo/axesHelper.js"],"axesHelper.6e4071f2.js.map","demo/axesHelper.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

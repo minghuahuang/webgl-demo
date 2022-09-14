@@ -8,6 +8,11 @@
 // })
 
 // orbitControls
-import('./demo/orbitControls').then(res=> {
+// import('./demo/orbitControls').then(res=> {
+//   res.h()
+// })
+
+// axesHelper
+import('./demo/axesHelper').then(res=> {
   res.h()
 })
