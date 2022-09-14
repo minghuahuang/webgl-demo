@@ -23,6 +23,11 @@
 // })
 
 // scale
-import('./demo/scale').then(res=> {
+// import('./demo/scale').then(res=> {
+//   res.h()
+// })
+
+// rotate
+import('./demo/rotate').then(res=> {
   res.h()
 })
