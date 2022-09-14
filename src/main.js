@@ -13,6 +13,11 @@
 // })
 
 // axesHelper
-import('./demo/axesHelper').then(res=> {
+// import('./demo/axesHelper').then(res=> {
+//   res.h()
+// })
+
+// translate
+import('./demo/translate').then(res=> {
   res.h()
 })
