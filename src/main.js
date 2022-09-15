@@ -2,6 +2,11 @@
  * 修改demo文件路径即可
  **/ 
 
+// test
+// import('./demo/test').then(res=> {
+//   res.h()
+// })
+
 // basic
 // import('./demo/basic').then(res=> {
 //   res.h()
@@ -28,6 +33,11 @@
 // })
 
 // rotate
-import('./demo/rotate').then(res=> {
+// import('./demo/rotate').then(res=> {
+//   res.h()
+// })
+
+// clock
+import('./demo/clock').then(res=> {
   res.h()
 })

@@ -236,6 +236,10 @@ LazyPromise.prototype.catch = function (onError) {
 /**
  * 修改demo文件路径即可
  **/
+// test
+// import('./demo/test').then(res=> {
+//   res.h()
+// })
 // basic
 // import('./demo/basic').then(res=> {
 //   res.h()
@@ -257,10 +261,14 @@ LazyPromise.prototype.catch = function (onError) {
 //   res.h()
 // })
 // rotate
-require("_bundle_loader")(require.resolve('./demo/rotate')).then(function (res) {
+// import('./demo/rotate').then(res=> {
+//   res.h()
+// })
+// clock
+require("_bundle_loader")(require.resolve('./demo/clock')).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/rotate":[["rotate.8c21330a.js","demo/rotate.js"],"rotate.8c21330a.js.map","demo/rotate.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/clock":[["clock.ddfbbf8a.js","demo/clock.js"],"clock.ddfbbf8a.js.map","demo/clock.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
