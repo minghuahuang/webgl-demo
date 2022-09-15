@@ -43,6 +43,11 @@
 // })
 
 // gsap
-import('./demo/gsap').then(res=> {
+// import('./demo/gsap').then(res=> {
+//   res.h()
+// })
+
+// resize
+import('./demo/resize').then(res=> {
   res.h()
 })
