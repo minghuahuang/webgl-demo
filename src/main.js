@@ -38,6 +38,11 @@
 // })
 
 // clock
-import('./demo/clock').then(res=> {
+// import('./demo/clock').then(res=> {
+//   res.h()
+// })
+
+// gsap
+import('./demo/gsap').then(res=> {
   res.h()
 })
