@@ -48,6 +48,11 @@
 // })
 
 // resize
-import('./demo/resize').then(res=> {
+// import('./demo/resize').then(res=> {
+//   res.h()
+// })
+
+// debug
+import('./demo/debug').then(res=> {
   res.h()
 })
