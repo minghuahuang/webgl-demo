@@ -1,6 +1,6 @@
 /**
  * 修改demo文件路径即可
- **/ 
+ **/
 
 // test
 // import('./demo/test').then(res=> {
@@ -53,6 +53,11 @@
 // })
 
 // debug
-import('./demo/debug').then(res=> {
-  res.h()
-})
+// import('./demo/debug').then(res=> {
+//   res.h()
+// })
+
+// BufferGeometry
+import("./demo/BufferGeometry").then((res) => {
+	res.h();
+});

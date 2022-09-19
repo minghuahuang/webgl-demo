@@ -277,10 +277,14 @@ LazyPromise.prototype.catch = function (onError) {
 //   res.h()
 // })
 // debug
-require("_bundle_loader")(require.resolve('./demo/debug')).then(function (res) {
+// import('./demo/debug').then(res=> {
+//   res.h()
+// })
+// BufferGeometry
+require("_bundle_loader")(require.resolve("./demo/BufferGeometry")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/debug":[["debug.c1793b15.js","demo/debug.js"],"debug.c1793b15.js.map","demo/debug.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/BufferGeometry":[["BufferGeometry.985d656e.js","demo/BufferGeometry.js"],"BufferGeometry.985d656e.js.map","demo/BufferGeometry.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
