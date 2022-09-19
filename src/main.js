@@ -58,6 +58,11 @@
 // })
 
 // BufferGeometry
-import("./demo/BufferGeometry").then((res) => {
+// import("./demo/BufferGeometry").then((res) => {
+// 	res.h();
+// });
+
+// case-buffergeometry
+import("./demo/case-buffergeometry").then((res) => {
 	res.h();
 });

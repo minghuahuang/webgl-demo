@@ -281,10 +281,14 @@ LazyPromise.prototype.catch = function (onError) {
 //   res.h()
 // })
 // BufferGeometry
-require("_bundle_loader")(require.resolve("./demo/BufferGeometry")).then(function (res) {
+// import("./demo/BufferGeometry").then((res) => {
+// 	res.h();
+// });
+// case-buffergeometry
+require("_bundle_loader")(require.resolve("./demo/case-buffergeometry")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/BufferGeometry":[["BufferGeometry.985d656e.js","demo/BufferGeometry.js"],"BufferGeometry.985d656e.js.map","demo/BufferGeometry.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/case-buffergeometry":[["case-buffergeometry.b3544d9b.js","demo/case-buffergeometry.js"],"case-buffergeometry.b3544d9b.js.map","demo/case-buffergeometry.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

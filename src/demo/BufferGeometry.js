@@ -1,5 +1,5 @@
 /**
- * BoxGeometry->BufferGeometry
+ * BufferGeometry使用
  */
 
 import * as THREE from "three";
