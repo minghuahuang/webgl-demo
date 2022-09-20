@@ -289,10 +289,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // material
-require("_bundle_loader")(require.resolve("./demo/material")).then(function (res) {
+// import("./demo/material").then((res) => {
+// 	res.h();
+// });
+// standardMaterial
+require("_bundle_loader")(require.resolve("./demo/standardMaterial")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/material":[["material.32bcf62f.js","demo/material.js"],"material.32bcf62f.js.map","demo/material.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/standardMaterial":[["standardMaterial.d062ac33.js","demo/standardMaterial.js"],"standardMaterial.d062ac33.js.map","demo/standardMaterial.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

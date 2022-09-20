@@ -68,6 +68,11 @@
 // });
 
 // material
-import("./demo/material").then((res) => {
+// import("./demo/material").then((res) => {
+// 	res.h();
+// });
+
+// standardMaterial
+import("./demo/standardMaterial").then((res) => {
 	res.h();
 });
