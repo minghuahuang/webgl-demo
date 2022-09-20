@@ -63,6 +63,11 @@
 // });
 
 // case-buffergeometry
-import("./demo/case-buffergeometry").then((res) => {
+// import("./demo/case-buffergeometry").then((res) => {
+// 	res.h();
+// });
+
+// material
+import("./demo/material").then((res) => {
 	res.h();
 });

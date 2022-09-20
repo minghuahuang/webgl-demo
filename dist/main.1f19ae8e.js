@@ -285,10 +285,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // case-buffergeometry
-require("_bundle_loader")(require.resolve("./demo/case-buffergeometry")).then(function (res) {
+// import("./demo/case-buffergeometry").then((res) => {
+// 	res.h();
+// });
+// material
+require("_bundle_loader")(require.resolve("./demo/material")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/case-buffergeometry":[["case-buffergeometry.b3544d9b.js","demo/case-buffergeometry.js"],"case-buffergeometry.b3544d9b.js.map","demo/case-buffergeometry.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/material":[["material.32bcf62f.js","demo/material.js"],"material.32bcf62f.js.map","demo/material.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
