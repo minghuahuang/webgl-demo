@@ -293,10 +293,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // standardMaterial
-require("_bundle_loader")(require.resolve("./demo/standardMaterial")).then(function (res) {
+// import("./demo/standardMaterial").then((res) => {
+// 	res.h();
+// });
+// displacementMap
+require("_bundle_loader")(require.resolve("./demo/displacementMap")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/standardMaterial":[["standardMaterial.d062ac33.js","demo/standardMaterial.js"],"standardMaterial.d062ac33.js.map","demo/standardMaterial.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/displacementMap":[["displacementMap.f6a80021.js","demo/displacementMap.js"],"displacementMap.f6a80021.js.map","demo/displacementMap.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

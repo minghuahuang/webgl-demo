@@ -73,6 +73,11 @@
 // });
 
 // standardMaterial
-import("./demo/standardMaterial").then((res) => {
+// import("./demo/standardMaterial").then((res) => {
+// 	res.h();
+// });
+
+// displacementMap
+import("./demo/displacementMap").then((res) => {
 	res.h();
 });
