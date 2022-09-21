@@ -78,6 +78,11 @@
 // });
 
 // displacementMap
-import("./demo/displacementMap").then((res) => {
+// import("./demo/displacementMap").then((res) => {
+// 	res.h();
+// });
+
+// roughnessMap
+import("./demo/roughnessMap").then((res) => {
 	res.h();
 });
