@@ -301,10 +301,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // roughnessMap
-require("_bundle_loader")(require.resolve("./demo/roughnessMap")).then(function (res) {
+// import("./demo/roughnessMap").then((res) => {
+// 	res.h();
+// });
+// metalnessMap
+require("_bundle_loader")(require.resolve("./demo/metalnessMap")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/roughnessMap":[["roughnessMap.bf34c9d2.js","demo/roughnessMap.js"],"roughnessMap.bf34c9d2.js.map","demo/roughnessMap.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/metalnessMap":[["metalnessMap.95fb8a71.js","demo/metalnessMap.js"],"metalnessMap.95fb8a71.js.map","demo/metalnessMap.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

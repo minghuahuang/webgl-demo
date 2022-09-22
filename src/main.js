@@ -83,6 +83,11 @@
 // });
 
 // roughnessMap
-import("./demo/roughnessMap").then((res) => {
+// import("./demo/roughnessMap").then((res) => {
+// 	res.h();
+// });
+
+// metalnessMap
+import("./demo/metalnessMap").then((res) => {
 	res.h();
 });
