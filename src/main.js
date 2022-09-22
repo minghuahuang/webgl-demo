@@ -88,6 +88,11 @@
 // });
 
 // metalnessMap
-import("./demo/metalnessMap").then((res) => {
+// import("./demo/metalnessMap").then((res) => {
+// 	res.h();
+// });
+
+// normalMap
+import("./demo/normalMap").then((res) => {
 	res.h();
 });

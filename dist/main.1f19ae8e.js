@@ -305,10 +305,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // metalnessMap
-require("_bundle_loader")(require.resolve("./demo/metalnessMap")).then(function (res) {
+// import("./demo/metalnessMap").then((res) => {
+// 	res.h();
+// });
+// normalMap
+require("_bundle_loader")(require.resolve("./demo/normalMap")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/metalnessMap":[["metalnessMap.95fb8a71.js","demo/metalnessMap.js"],"metalnessMap.95fb8a71.js.map","demo/metalnessMap.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/normalMap":[["normalMap.59849076.js","demo/normalMap.js"],"normalMap.59849076.js.map","demo/normalMap.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
