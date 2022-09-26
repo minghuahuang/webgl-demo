@@ -313,10 +313,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // loadingManager
-require("_bundle_loader")(require.resolve("./demo/loadingManager")).then(function (res) {
+// import("./demo/loadingManager").then((res) => {
+// 	res.h();
+// });
+// cubeTextureLoader
+require("_bundle_loader")(require.resolve("./demo/cubeTextureLoader")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/loadingManager":[["loadingManager.88e84dcb.js","demo/loadingManager.js"],"loadingManager.88e84dcb.js.map","demo/loadingManager.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/cubeTextureLoader":[["cubeTextureLoader.fd9d0c8a.js","demo/cubeTextureLoader.js"],"cubeTextureLoader.fd9d0c8a.js.map","demo/cubeTextureLoader.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

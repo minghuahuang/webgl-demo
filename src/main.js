@@ -98,6 +98,11 @@
 // });
 
 // loadingManager
-import("./demo/loadingManager").then((res) => {
+// import("./demo/loadingManager").then((res) => {
+// 	res.h();
+// });
+
+// cubeTextureLoader
+import("./demo/cubeTextureLoader").then((res) => {
 	res.h();
 });
