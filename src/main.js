@@ -93,6 +93,11 @@
 // });
 
 // normalMap
-import("./demo/normalMap").then((res) => {
+// import("./demo/normalMap").then((res) => {
+// 	res.h();
+// });
+
+// loadingManager
+import("./demo/loadingManager").then((res) => {
 	res.h();
 });
