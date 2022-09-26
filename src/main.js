@@ -103,6 +103,11 @@
 // });
 
 // cubeTextureLoader
-import("./demo/cubeTextureLoader").then((res) => {
+// import("./demo/cubeTextureLoader").then((res) => {
+// 	res.h();
+// });
+
+// dataTextureLoader
+import("./demo/dataTextureLoader").then((res) => {
 	res.h();
 });
