@@ -108,6 +108,11 @@
 // });
 
 // dataTextureLoader
-import("./demo/dataTextureLoader").then((res) => {
+// import("./demo/dataTextureLoader").then((res) => {
+// 	res.h();
+// });
+
+// shadow
+import("./demo/shadow").then((res) => {
 	res.h();
 });
