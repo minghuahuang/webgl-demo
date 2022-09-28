@@ -333,10 +333,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // spot-shadow
-require("_bundle_loader")(require.resolve("./demo/spot-shadow")).then(function (res) {
+// import("./demo/spot-shadow").then((res) => {
+// 	res.h();
+// });
+// point-shadow
+require("_bundle_loader")(require.resolve("./demo/point-shadow")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/spot-shadow":[["spot-shadow.5785527d.js","demo/spot-shadow.js"],"spot-shadow.5785527d.js.map","demo/spot-shadow.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/point-shadow":[["point-shadow.e1625aca.js","demo/point-shadow.js"],"point-shadow.e1625aca.js.map","demo/point-shadow.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

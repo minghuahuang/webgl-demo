@@ -123,6 +123,11 @@
 // });
 
 // spot-shadow
-import("./demo/spot-shadow").then((res) => {
+// import("./demo/spot-shadow").then((res) => {
+// 	res.h();
+// });
+
+// point-shadow
+import("./demo/point-shadow").then((res) => {
 	res.h();
 });
