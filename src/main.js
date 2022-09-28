@@ -127,7 +127,7 @@
 // 	res.h();
 // });
 
-// point-shadow
-import("./demo/point-shadow").then((res) => {
+// point
+import("./demo/point").then((res) => {
 	res.h();
 });
