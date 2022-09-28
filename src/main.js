@@ -113,6 +113,11 @@
 // });
 
 // shadow
-import("./demo/shadow").then((res) => {
+// import("./demo/shadow").then((res) => {
+// 	res.h();
+// });
+
+// direction-shadow
+import("./demo/direction-shadow").then((res) => {
 	res.h();
 });
