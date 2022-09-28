@@ -128,6 +128,11 @@
 // });
 
 // point
-import("./demo/point").then((res) => {
+// import("./demo/point").then((res) => {
+// 	res.h();
+// });
+
+// pointMaterial
+import("./demo/pointMaterial").then((res) => {
 	res.h();
 });
