@@ -329,10 +329,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // direction-shadow
-require("_bundle_loader")(require.resolve("./demo/direction-shadow")).then(function (res) {
+// import("./demo/direction-shadow").then((res) => {
+// 	res.h();
+// });
+// spot-shadow
+require("_bundle_loader")(require.resolve("./demo/spot-shadow")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/direction-shadow":[["direction-shadow.739487d1.js","demo/direction-shadow.js"],"direction-shadow.739487d1.js.map","demo/direction-shadow.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/spot-shadow":[["spot-shadow.5785527d.js","demo/spot-shadow.js"],"spot-shadow.5785527d.js.map","demo/spot-shadow.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

@@ -118,6 +118,11 @@
 // });
 
 // direction-shadow
-import("./demo/direction-shadow").then((res) => {
+// import("./demo/direction-shadow").then((res) => {
+// 	res.h();
+// });
+
+// spot-shadow
+import("./demo/spot-shadow").then((res) => {
 	res.h();
 });
