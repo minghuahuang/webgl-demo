@@ -148,6 +148,11 @@
 // });
 
 // case-point-03
-import("./demo/case-point-03").then((res) => {
+// import("./demo/case-point-03").then((res) => {
+// 	res.h();
+// });
+
+// raycaster
+import("./demo/raycaster").then((res) => {
 	res.h();
 });
