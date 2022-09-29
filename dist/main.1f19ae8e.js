@@ -349,10 +349,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // case-point-02
-require("_bundle_loader")(require.resolve("./demo/case-point-02")).then(function (res) {
+// import("./demo/case-point-02").then((res) => {
+// 	res.h();
+// });
+// case-point-03
+require("_bundle_loader")(require.resolve("./demo/case-point-03")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/case-point-02":[["case-point-02.75873385.js","demo/case-point-02.js"],"case-point-02.75873385.js.map","demo/case-point-02.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/case-point-03":[["case-point-03.132d5699.js","demo/case-point-03.js"],"case-point-03.132d5699.js.map","demo/case-point-03.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -380,7 +384,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53552" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64861" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
