@@ -1,5 +1,5 @@
 /**
- * point-case 随机顶点
+ * point-case 随机顶点-星河特效
  */
 
 import * as THREE from "three";

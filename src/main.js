@@ -137,7 +137,12 @@
 // 	res.h();
 // });
 
-// case-point
-import("./demo/case-point").then((res) => {
+// case-point-01
+// import("./demo/case-point-01").then((res) => {
+// 	res.h();
+// });
+
+// case-point-02
+import("./demo/case-point-02").then((res) => {
 	res.h();
 });

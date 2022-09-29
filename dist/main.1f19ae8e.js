@@ -344,11 +344,15 @@ LazyPromise.prototype.catch = function (onError) {
 // import("./demo/pointMaterial").then((res) => {
 // 	res.h();
 // });
-// case-point
-require("_bundle_loader")(require.resolve("./demo/case-point")).then(function (res) {
+// case-point-01
+// import("./demo/case-point-01").then((res) => {
+// 	res.h();
+// });
+// case-point-02
+require("_bundle_loader")(require.resolve("./demo/case-point-02")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/case-point":[["case-point.23f8f4ef.js","demo/case-point.js"],"case-point.23f8f4ef.js.map","demo/case-point.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/case-point-02":[["case-point-02.75873385.js","demo/case-point-02.js"],"case-point-02.75873385.js.map","demo/case-point-02.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
