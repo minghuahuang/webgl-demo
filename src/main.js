@@ -133,6 +133,11 @@
 // });
 
 // pointMaterial
-import("./demo/pointMaterial").then((res) => {
+// import("./demo/pointMaterial").then((res) => {
+// 	res.h();
+// });
+
+// case-point
+import("./demo/case-point").then((res) => {
 	res.h();
 });
