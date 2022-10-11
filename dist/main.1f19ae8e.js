@@ -357,10 +357,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // raycaster
-require("_bundle_loader")(require.resolve("./demo/raycaster")).then(function (res) {
+// import("./demo/raycaster").then((res) => {
+// 	res.h();
+// });
+// dashboard  3D 官网案例，  关联index.html
+require("_bundle_loader")(require.resolve("./demo/dashboard")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/raycaster":[["raycaster.fed3d968.js","demo/raycaster.js"],"raycaster.fed3d968.js.map","demo/raycaster.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/dashboard":[["dashboard.a506fb6b.js","demo/dashboard.js"],"dashboard.a506fb6b.js.map","demo/dashboard.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -388,7 +392,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64861" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57575" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

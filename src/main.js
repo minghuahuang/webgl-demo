@@ -153,6 +153,11 @@
 // });
 
 // raycaster
-import("./demo/raycaster").then((res) => {
+// import("./demo/raycaster").then((res) => {
+// 	res.h();
+// });
+
+// dashboard  3D 官网案例，  关联index.html
+import("./demo/dashboard").then((res) => {
 	res.h();
 });
