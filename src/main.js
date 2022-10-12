@@ -158,6 +158,11 @@
 // });
 
 // dashboard  3D 官网案例，  关联index.html
-import("./demo/dashboard").then((res) => {
+// import("./demo/dashboard").then((res) => {
+// 	res.h();
+// });
+
+// 物理引擎cannon 使用
+import("./demo/cannon").then((res) => {
 	res.h();
 });

@@ -361,10 +361,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // dashboard  3D 官网案例，  关联index.html
-require("_bundle_loader")(require.resolve("./demo/dashboard")).then(function (res) {
+// import("./demo/dashboard").then((res) => {
+// 	res.h();
+// });
+// 物理引擎cannon 使用
+require("_bundle_loader")(require.resolve("./demo/cannon")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/dashboard":[["dashboard.a506fb6b.js","demo/dashboard.js"],"dashboard.a506fb6b.js.map","demo/dashboard.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/cannon":[["cannon.21950c8d.js","demo/cannon.js"],"cannon.21950c8d.js.map","demo/cannon.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
