@@ -163,6 +163,11 @@
 // });
 
 // 物理引擎cannon 使用
-import("./demo/cannon").then((res) => {
+// import("./demo/cannon").then((res) => {
+// 	res.h();
+// });
+
+// 正方体碰撞翻滚和力的作用
+import("./demo/cannon2").then((res) => {
 	res.h();
 });
