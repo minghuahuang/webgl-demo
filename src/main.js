@@ -168,6 +168,11 @@
 // });
 
 // 正方体碰撞翻滚和力的作用
-import("./demo/cannon2").then((res) => {
+// import("./demo/cannon2").then((res) => {
+// 	res.h();
+// });
+
+// 施力
+import("./demo/cannon3").then((res) => {
 	res.h();
 });

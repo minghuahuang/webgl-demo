@@ -369,10 +369,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // 正方体碰撞翻滚和力的作用
-require("_bundle_loader")(require.resolve("./demo/cannon2")).then(function (res) {
+// import("./demo/cannon2").then((res) => {
+// 	res.h();
+// });
+// 施力
+require("_bundle_loader")(require.resolve("./demo/cannon3")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/cannon2":[["cannon2.052ef4c3.js","demo/cannon2.js"],"cannon2.052ef4c3.js.map","demo/cannon2.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/cannon3":[["cannon3.08a054c8.js","demo/cannon3.js"],"cannon3.08a054c8.js.map","demo/cannon3.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
