@@ -7,7 +7,7 @@ body {
   background-color: rgb(225, 226, 231);
 }
 
-canvas {
+/* canvas {
   position: fixed;
   left: 0;
   top: 0;
@@ -32,4 +32,4 @@ canvas {
 
 ::-webkit-scrollbar {
   display: none;
-}
+} */

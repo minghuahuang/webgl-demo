@@ -373,10 +373,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // 施力
-require("_bundle_loader")(require.resolve("./demo/cannon3")).then(function (res) {
+// import("./demo/cannon3").then((res) => {
+// 	res.h();
+// });
+// shaderMaterial
+require("_bundle_loader")(require.resolve("./demo/shaderMaterial")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/cannon3":[["cannon3.08a054c8.js","demo/cannon3.js"],"cannon3.08a054c8.js.map","demo/cannon3.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/shaderMaterial":[["shaderMaterial.0d826291.js","demo/shaderMaterial.js"],"shaderMaterial.0d826291.js.map","demo/shaderMaterial.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

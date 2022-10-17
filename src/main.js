@@ -173,6 +173,11 @@
 // });
 
 // 施力
-import("./demo/cannon3").then((res) => {
+// import("./demo/cannon3").then((res) => {
+// 	res.h();
+// });
+
+// shaderMaterial
+import("./demo/shaderMaterial").then((res) => {
 	res.h();
 });
