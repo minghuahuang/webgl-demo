@@ -183,6 +183,11 @@
 // });
 
 // RawShaderMaterial
-import("./demo/RawShaderMaterial").then((res) => {
+// import("./demo/RawShaderMaterial").then((res) => {
+// 	res.h();
+// });
+
+// rawShaderMaterialAnimation
+import("./demo/rawShaderMaterialAnimation").then((res) => {
 	res.h();
 });
