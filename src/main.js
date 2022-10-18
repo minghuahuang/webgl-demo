@@ -178,6 +178,11 @@
 // });
 
 // shaderMaterial
-import("./demo/shaderMaterial").then((res) => {
+// import("./demo/shaderMaterial").then((res) => {
+// 	res.h();
+// });
+
+// RawShaderMaterial
+import("./demo/RawShaderMaterial").then((res) => {
 	res.h();
 });

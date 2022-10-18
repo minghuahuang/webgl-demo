@@ -377,10 +377,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // shaderMaterial
-require("_bundle_loader")(require.resolve("./demo/shaderMaterial")).then(function (res) {
+// import("./demo/shaderMaterial").then((res) => {
+// 	res.h();
+// });
+// RawShaderMaterial
+require("_bundle_loader")(require.resolve("./demo/RawShaderMaterial")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/shaderMaterial":[["shaderMaterial.0d826291.js","demo/shaderMaterial.js"],"shaderMaterial.0d826291.js.map","demo/shaderMaterial.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/RawShaderMaterial":[["RawShaderMaterial.b4cb0e17.js","demo/RawShaderMaterial.js"],"RawShaderMaterial.b4cb0e17.js.map","demo/RawShaderMaterial.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
