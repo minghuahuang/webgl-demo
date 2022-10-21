@@ -193,6 +193,11 @@
 // });
 
 // shader
-import("./demo/shader").then((res) => {
+// import("./demo/shader").then((res) => {
+// 	res.h();
+// });
+
+// shaderCase 孔明灯
+import("./demo/shaderCase").then((res) => {
 	res.h();
 });
