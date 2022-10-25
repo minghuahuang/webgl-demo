@@ -198,6 +198,11 @@
 // });
 
 // shaderCase 孔明灯
-import("./demo/shaderCase").then((res) => {
+// import("./demo/shaderCase").then((res) => {
+// 	res.h();
+// });
+
+// shaderCase2 烟雾效果
+import("./demo/shaderCase2").then((res) => {
 	res.h();
 });
