@@ -203,6 +203,11 @@
 // });
 
 // shaderCase2 烟雾效果
-import("./demo/shaderCase2").then((res) => {
+// import("./demo/shaderCase2").then((res) => {
+// 	res.h();
+// });
+
+// shaderCase3 水
+import("./demo/shaderCase3").then((res) => {
 	res.h();
 });
