@@ -401,10 +401,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // shaderCase3 水
-require("_bundle_loader")(require.resolve("./demo/shaderCase3")).then(function (res) {
+// import("./demo/shaderCase3").then((res) => {
+// 	res.h();
+// });
+// shaderCase4 星璇
+require("_bundle_loader")(require.resolve("./demo/shaderCase4")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/shaderCase3":[["shaderCase3.be336d1f.js","demo/shaderCase3.js"],"shaderCase3.be336d1f.js.map","demo/shaderCase3.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/shaderCase4":[["shaderCase4.e7c12e23.js","demo/shaderCase4.js"],"shaderCase4.e7c12e23.js.map","demo/shaderCase4.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -432,7 +436,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58705" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49512" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -208,6 +208,11 @@
 // });
 
 // shaderCase3 水
-import("./demo/shaderCase3").then((res) => {
+// import("./demo/shaderCase3").then((res) => {
+// 	res.h();
+// });
+
+// shaderCase4 星璇
+import("./demo/shaderCase4").then((res) => {
 	res.h();
 });
