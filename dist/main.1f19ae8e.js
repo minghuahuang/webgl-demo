@@ -404,11 +404,15 @@ LazyPromise.prototype.catch = function (onError) {
 // import("./demo/shaderCase3").then((res) => {
 // 	res.h();
 // });
-// shaderCase4 星璇
-require("_bundle_loader")(require.resolve("./demo/shaderCase4")).then(function (res) {
+// shaderCase4 点应用着色器材质
+// import("./demo/shaderCase4").then((res) => {
+// 	res.h();
+// });
+// shaderCase5 星系
+require("_bundle_loader")(require.resolve("./demo/shaderCase5")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/shaderCase4":[["shaderCase4.e7c12e23.js","demo/shaderCase4.js"],"shaderCase4.e7c12e23.js.map","demo/shaderCase4.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/shaderCase5":[["shaderCase5.00b1e848.js","demo/shaderCase5.js"],"shaderCase5.00b1e848.js.map","demo/shaderCase5.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

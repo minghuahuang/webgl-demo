@@ -212,7 +212,12 @@
 // 	res.h();
 // });
 
-// shaderCase4 星璇
-import("./demo/shaderCase4").then((res) => {
+// shaderCase4 点应用着色器材质
+// import("./demo/shaderCase4").then((res) => {
+// 	res.h();
+// });
+
+// shaderCase5 星系
+import("./demo/shaderCase5").then((res) => {
 	res.h();
 });
