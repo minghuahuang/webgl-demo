@@ -218,6 +218,11 @@
 // });
 
 // shaderCase5 星系
-import("./demo/shaderCase5").then((res) => {
+// import("./demo/shaderCase5").then((res) => {
+// 	res.h();
+// });
+
+// firework 烟花案例
+import("./demo/firework/index").then((res) => {
 	res.h();
 });

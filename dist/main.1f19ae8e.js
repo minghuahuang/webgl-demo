@@ -409,10 +409,14 @@ LazyPromise.prototype.catch = function (onError) {
 // 	res.h();
 // });
 // shaderCase5 星系
-require("_bundle_loader")(require.resolve("./demo/shaderCase5")).then(function (res) {
+// import("./demo/shaderCase5").then((res) => {
+// 	res.h();
+// });
+// firework 烟花案例
+require("_bundle_loader")(require.resolve("./demo/firework/index")).then(function (res) {
   res.h();
 });
-},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/shaderCase5":[["shaderCase5.00b1e848.js","demo/shaderCase5.js"],"shaderCase5.00b1e848.js.map","demo/shaderCase5.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_bundle_loader":"../node_modules/parcel-bundler/src/builtins/bundle-loader.js","./demo/firework/index":[["firework.b03c6df0.js","demo/firework/index.js"],"firework.b03c6df0.js.map","demo/firework/index.js"]}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -440,7 +444,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49512" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52039" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
